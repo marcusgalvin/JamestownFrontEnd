@@ -1,0 +1,190 @@
+body {
+   background-color: rgba(238, 238, 238, 0.91) !important;
+      background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg")
+
+}
+
+.video-container {
+    position: relative;
+}
+
+video {
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+h3 {
+font-family: 'Open Sans', sans-serif;
+
+ 
+}
+
+.container {
+    display: flex
+    justify-content: flex center
+    margin: auto;
+    text-align: center
+}
+
+.overlay-desc {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 170px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topOverlay {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 5;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Nobile', sans-serif;
+    font-size: 7vw;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+
+.photoContainer {
+    border: 0px white;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.photo1 {
+    width: 150px;
+    height: 150px;
+    border: 0px solid green;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    /* 5px rounded corners */
+    background-image: url("https://photos.smugmug.com/Rhode-Island/i-WvKQjZk/0/43707a75/S/Ocean%20Rock%20Sunrise-S.jpg")
+}
+
+.photo2 {
+    width: 150px;
+    height: 150px;
+    border: 0px solid green;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    /* 5px rounded corners */
+    background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_200,q_75,w_200/v1/clients/southcountyri/mpillingphoto_instagram_906_ig_1712829120974174220_1903090958_3772af3d-0c5e-4b2e-9b5d-07e6919036d7.jpg")
+}
+
+.photo3 {
+    width: 150px;
+    height: 150px;
+    border: px solid green;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    /* 5px rounded corners */
+    background-image: url("https://newimages.yachtworld.com/resize/1/50/18/4895018_20170302091022617_1_XLARGE.jpg?f=/1/50/18/4895018_20170302091022617_1_XLARGE.jpg")
+}
+
+
+@import url('//fonts.googleapis.com/css?family=Pacifico&text=Experiance');
+@import url('//fonts.googleapis.com/css?family=Roboto:700&text=Jamestown');
+@import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!');
+
+body { 
+  min-height: 450px;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle, darken(dodgerblue, 10%), #1f4f96, #1b2949, #000);
+}
+
+.stage {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  perspective: 9999px;
+  transform-style: preserve-3d;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+  animation-fill-mode: forwards;
+  transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+}
+
+.layer:after {
+  font: 150px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+  content: 'Pure\A    css!';
+  white-space: pre;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50px; 
+  color: darken(#fff, 4%);
+  letter-spacing: -2px;
+  text-shadow: 4px 0 10px hsla(0, 0%, 0%, .13);
+}
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
